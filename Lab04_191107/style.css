@@ -1,0 +1,145 @@
+header, footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+}
+.navigacii{
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#FINKI_logo, #copyright{
+    grid-column: 1;
+}
+#nav_bar{
+    grid-column: 3;
+}
+#content{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+#primary{
+    background: darkblue;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: 2;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#main_text{
+    grid-column: 1;
+    margin-right: 50px;
+}
+#computer{
+    grid-column: 2;
+    margin-left: 50px;
+}
+#first_text{
+    font-size: 40px;
+}
+#second_text{
+    font-size: 30px;
+}
+#secondary{
+    grid-row: 3;
+    background: seagreen;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "A B B"
+                        "C C D";
+    justify-items: center;
+    align-items: center;
+}
+.img{
+    border-radius: 15px;
+    width: 300px;
+}
+#berries{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#flowers{
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+#frog{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+#rabbit{
+    margin-right: 20px;
+    margin-left: 100px;
+}
+#primary_about{
+    color: white;
+    background: lightgreen;
+    display: grid;
+    grid-template-columns: about about;
+    align-items: center;
+}
+#secondary_about{
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+}
+#sub_secondary{
+    width: 85%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:"title title title title"
+                         "John Alice Helen Charles";
+}
+#about-title{
+    color: white;
+    text-align: center;
+    grid-column: 1/span 4;
+}
+.team{
+    border-radius: 15px;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+
+}
+#secondary_contact{
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+}
+#sub_secondary_contact{
+    width: 85%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:". map"
+                         "info map"
+                        ". adress";
+}
+#map{
+    height: 300px;
+}
+#Map_info{
+    grid-area: adress;
+    justify-self: end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+a:active, a:hover{
+    color: green;
+}

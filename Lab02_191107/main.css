@@ -1,0 +1,25 @@
+#border{
+    border: 1px;
+    border-style: dashed;
+    border-color: black;
+    color: red;
+    padding: 1em;
+}
+#I{
+    color: paleturquoise;
+}
+#II{
+    color: darkgreen;
+}
+#III {
+    color: yellow;
+}
+#IV{
+    color: palevioletred;
+}
+footer{
+    text-align:center;
+}
+#bold_letters>li{
+    font-weight: bold;
+}
